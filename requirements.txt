@@ -1,0 +1,4 @@
+selenium==4.23.1
+requests==2.32.3
+pytest==8.3.2
+beautifulsoup4==4.12.3
