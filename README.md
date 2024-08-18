@@ -15,11 +15,13 @@ Parameters:
 - keywords: keywords to search for.
 - location: location to search in.
 - distance (optional): distance in miles to search for.
-- work_modes (optional): work modes codes to filter by: 1 - On-site, 2 - Remote, 3 - Hybrid, None - all.
+- work_modes (optional): work modes codes to filter by:
+1 - On-site, 2 - Remote, 3 - Hybrid, None - all.
 - company_codes (optional): companies codes to filter by.
 - industries (optional): industries codes to filter by.
-- experience_levels (optional): experience levels to filter by: 1 - Internship, 2 - Entry level, 3 - Associate, 4 - Mid-Senior level, 5 - Director, 6 - Executive.
-- easy_apply (optional): filter only Easy Apply jobs.
+- experience_levels (optional): experience levels to filter by:
+1 - Internship, 2 - Entry level, 3 - Associate, 4 - Mid-Senior level, 5 - Director, 6 - Executive.
+- easy_apply (optional): filter only Easy Apply jobs (requires yo login into an account).
 - posted_ago_max (optional): max number of second a job was posted ago, default 1 day.
  
 **Job** - to parse the job page by a given url.
